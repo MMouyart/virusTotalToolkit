@@ -10,6 +10,9 @@ Make sure the following commands are installed on the system :
 - curl
 - jq
 
+Create a virustotal account, and get your api key.
+In func.sh replace the fields <your api key> with you api key.
+
 Copy the func.sh file anywhere on the system (preferably somewhere that belongs to you, not in the / or the /root directories for instance).
 Simply add the following line in your shell interpretor config file (.bashrc, .zshrc, ...) : 
 ./home/<user name>/<path to func.sh>
